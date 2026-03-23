@@ -1,5 +1,7 @@
 # AQS
 
+abstractqueuesychronizer 抽象队列同步器
+
 **核心定义**：AQS 是一个用来构建锁和同步器的**抽象框架**。JUC 包下的大部分并发工具类（ReentrantLock, Semaphore, CountDownLatch 等）全都是基于它实现的。
 
 1. **两大核心数据结构**：
